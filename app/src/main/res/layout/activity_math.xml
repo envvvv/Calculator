@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".turn"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="二进制:"
+        android:textSize="40dp"/>
+
+    <EditText
+        android:id="@+id/m_two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="请输入数字"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="八进制:"
+        android:textSize="40dp"/>
+
+    <EditText
+        android:id="@+id/m_eight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入数字"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="十进制:"
+        android:textSize="40dp"/>
+
+    <EditText
+        android:id="@+id/m_ten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入数字"
+        android:textSize="40dp"/>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="十六进制:"
+        android:textSize="40dp"/>
+
+    <EditText
+        android:id="@+id/m_sixteen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入数字"
+        android:textSize="40dp"/>
+
+
+
+    <Button
+        android:id="@+id/m_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:textSize="40dp"/>
+    <Button
+        android:id="@+id/m_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清除"
+        android:textSize="40dp"/>
+
+    <Button
+        android:id="@+id/m_turn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:textSize="40dp"/>
+
+</LinearLayout>

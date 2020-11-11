@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".turn"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="千米:"
+        android:textSize="40dp"/>
+
+    <EditText
+        android:id="@+id/km"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="请输入长度"
+        android:textSize="40dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="米:"
+        android:textSize="40dp"/>
+
+    <EditText
+        android:id="@+id/m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入长度"
+        android:textSize="40dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="厘米:"
+        android:textSize="40dp"/>
+
+    <EditText
+        android:id="@+id/cm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入长度"
+        android:textSize="40dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="毫米:"
+        android:textSize="40dp"/>
+
+    <EditText
+        android:id="@+id/mm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入长度"
+        android:textSize="40dp"/>
+
+
+
+    <Button
+        android:id="@+id/l_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:textSize="40dp"/>
+    <Button
+        android:id="@+id/l_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清除"
+        android:textSize="40dp"/>
+
+    <Button
+        android:id="@+id/l_turn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="返回"
+        android:textSize="40dp"/>
+
+</LinearLayout>
